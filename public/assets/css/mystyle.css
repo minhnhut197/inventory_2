@@ -1,0 +1,211 @@
+:root {
+    /* --primary: rgb(204, 0, 102); */
+    --primary: rgb(0, 153, 0);
+    --sub:rgb(102, 255, 51);
+    --accent: #FF3D85;
+    --secondary: #4E5AFE;
+    --warning: #EED818;
+    --info: #05B4E1;
+    --danger: #FF4943;
+    --success: #96C93D;
+    --dark: #343531;
+    --light: #F5F9F6;
+    --cs: #596261;
+    --grey: #6E807A;
+  }
+  
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    color: #343531;
+  }
+  
+input[type="number"] {
+    text-align: right;
+}
+
+  a {
+    color: #07be94;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: #03a882;
+    text-decoration: underline;
+  }
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-sidebar{
+    background-color: rgb(255, 242, 204);
+}
+.bg-body{
+    background-color: red;
+}
+
+
+
+.text-primaryy{
+    color: rgb(0, 153, 0);
+}
+.skin-blue .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-blue .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+  text-decoration: none;
+}
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li.menu-open > a {
+  color: #ffffff;
+  background: #1e282c;
+}
+.skin-blue .sidebar-menu > li.active > a {
+  border-left-color: #3c8dbc;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-blue .sidebar a {
+  color: #b8c7ce;
+}
+.skin-blue .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-blue .sidebar-menu .treeview-menu > li.active > a,
+.skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+
+/* div.dataTables_wrapper div.dataTables_paginate {
+  margin: 0;
+  white-space: nowrap;
+  text-align: right;
+} */
+/* div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  margin: 2px 0;
+  white-space: nowrap;
+}
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination>li {
+  display: inline;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.pagination>li>a {
+  background: #fafafa;
+  color: #666;
+}
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+} */
+
+/* ul.pagination{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li.paginate_button.page-item:hover{
+  padding: 0;
+  margin: 0 ;
+  border: 0;
+}
+li.paginate_button.page-item{
+  padding: 0;
+  margin: 0 ;
+  border: 0;
+  background-color: red;
+  margin-left: 10px;
+}
+li.paginate_button.page-item > a:hover{
+  padding: 0;
+  margin: 0 ;
+  border: 0;
+}
+li.paginate_button.page-item > a{
+  padding: 0;
+  margin: 0 ;
+  border: 0; 
+  background-color: red;
+
+} */
+
+/* Navbar */
+.modal{
+  background: rgba(0, 0, 0, 0.05);
+}
+/* End Navbar */
+
+
+/* Sidebar */
+  ul.treeview-menu >li >a{
+    text-decoration: none;
+  }
+  ul.treeview-menu >li >a>img{
+    height: 14px;
+    padding: 0 5px 0 2px;
+  }
+  li.treeview>a>img{
+    height: 19px;
+    padding-right: 7px;
+  }
+/* End Sidebar */
+
+/* Body List Display */
+
+.delete-btn{
+  margin-left:10px;
+  background-color:white
+}
+
+span.leading-5 >svg{
+  height: 36px;
+}
+
+.search-results {
+  position: absolute;
+  width: 400px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 1000;
+  /* display: none; */
+}
+
+.search-results-li:hover{
+  cursor: pointer;
+  background-color: rgb(0,112,244);
+}
+
